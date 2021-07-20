@@ -17,7 +17,7 @@ const data = [
     },
     {
         id:3,
-        imgsrc: "./Images/Smoke Text Design.png",
+        imgsrc: "./Images/SmokeText.png",
         name: "Smoke Text Design",
         altName: "Smoke Text Design",
         category: "Js",

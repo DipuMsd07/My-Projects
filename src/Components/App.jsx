@@ -1,12 +1,12 @@
 import React from 'react';
-import Container from './Container';
+import Maincard from './Maincard';
 import Header from './Header';
 
 const App = () =>{
     return(
         <>  
             <Header/>
-            <Container/>
+            <Maincard/>
         </>
     )
 }
