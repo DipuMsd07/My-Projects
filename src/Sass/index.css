@@ -159,10 +159,17 @@ body .maincard .card:hover {
     margin-top: 10px;
   }
   body .maincard {
-    margin-top: 0px;
+    margin: 0px;
+  }
+  body .maincard .row {
+    --bs-gutter-x: 0rem;
   }
   body .maincard .card {
     margin: 1.5em 0;
+  }
+  body .maincard .card:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
   }
 }
 /*# sourceMappingURL=index.css.map */

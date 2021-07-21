@@ -127,9 +127,15 @@ body{
             }
         }
         .maincard{
-            margin-top: 0px;
+            margin: 0px;
+            .row{
+                --bs-gutter-x: 0rem;
+            }
             .card{
                 margin: 1.5em 0;
+                &:hover{
+                    transform: scale(1.1);
+                }
             }
         }
     }

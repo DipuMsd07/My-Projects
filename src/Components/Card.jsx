@@ -1,6 +1,4 @@
 import React from 'react';
-import data from './data';
-
 
 const Card = ({key,link,imgsrc,altName,name}) =>{
     return(
