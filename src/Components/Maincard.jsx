@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import data from './data';
 import Card from './Card';
-import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import Btns from './Btns';
 
 const Maincard = () =>{
 
@@ -16,21 +16,13 @@ const Maincard = () =>{
 
     return(
         <>
-            <div className="btns">
-                    <button className="active" onClick={()=> setItem(data)}>All</button>
-                    <button onClick={()=> filterList('Html')}>Html&Css</button>
-                    <button onClick={()=> filterList('Js')}>JavaScript</button>
-                    <button onClick={()=> filterList('React')}>React</button>
-                    <button onClick={()=> filterList('Other')}>Other</button>
-                </div>
-
+            <Btns filterList={filterList} setItem={setItem}/>
                 <div className="maincard">
                     <div className="row">
                         <div className="col-11 mx-auto">
                             <div className="row my-5">  
                     {
-                        item.map( (val) =>{
-                            const {id,imgsrc,name,altName,category,link} = val;
+                        item.map(({id,imgsrc,name,altName,category,link})=>{
                             return(
                                 <Card
                                     key={id}

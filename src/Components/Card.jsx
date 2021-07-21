@@ -1,18 +1,19 @@
 import React from 'react';
-import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import data from './data';
 
-const Card = (props) =>{
+
+const Card = ({key,link,imgsrc,altName,name}) =>{
     return(
         <>
-                <div className="col-12 col-md-6 col-lg-6 col-xl-4">
+                <div className="col-12 col-md-6 col-lg-6 col-xl-4" key={key}>
                     <div className="row card">
                             <div className="card-image">
-                                <a rel="noreferrer" href={props.link} target="_blank">
-                                    <img src={props.imgsrc} alt={props.altName}/>
+                                <a rel="noreferrer" href={link} target="_blank">
+                                    <img src={imgsrc} alt={altName}/>
                                 </a>
                             </div>
                             <div className="card-text">
-                                <h2>{props.name}</h2>
+                                <h2>{name}</h2>
                             </div>
                     </div>
                 </div>

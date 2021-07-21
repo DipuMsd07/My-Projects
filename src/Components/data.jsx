@@ -4,7 +4,7 @@ const data = [
         imgsrc: "./Images/Coc.png",
         name: "Coc Cards",
         altName: "Coc Cards",
-        category: "Html",
+        category: "Html/Css",
         link: "https://dipumsd07.github.io/CocCards/"
     },
     {
@@ -12,7 +12,7 @@ const data = [
         imgsrc: "./Images/PrcingUiDesign.png",
         name: "Pricing UI Design",
         altName: "Pricing UI Design",
-        category: "Css",
+        category: "Html/Css",
         link: "https://dipumsd07.github.io/PriceUiDesgin-DarkMode/"
     },
     {
@@ -116,7 +116,7 @@ const data = [
         imgsrc:"./Images/Parallex.png",
         name:"Parallex-Design",
         altName:"Parallex-Design",
-        category:"Html",
+        category:"Html/Css",
         link:"https://dipumsd07.github.io/Parallex-Design/"
     },
     {
@@ -124,7 +124,7 @@ const data = [
         imgsrc:"./Images/3dShoe.png",
         name:"3dShoeDesign",
         altName:"3dShoeDesign",
-        category:"Html",
+        category:"Html/Css",
         link:"https://dipumsd07.github.io/3D-Shoes-Design/"
     },
     {
@@ -132,7 +132,7 @@ const data = [
         imgsrc:"./Images/ShootingStar.png",
         name:"ShootingStar",
         altName:"ShootingStar",
-        category:"Html",
+        category:"Html/Css",
         link:"https://dipumsd07.github.io/ShootingStar/"
     },
     {
@@ -140,7 +140,7 @@ const data = [
         imgsrc:"./Images/ShoeDesign.png",
         name:"ShoeDesign",
         altName:"ShoeDesign",
-        category:"Html",
+        category:"Html/Css",
         link:"https://dipumsd07.github.io/ProductSlider/"
     },
     {
@@ -148,7 +148,7 @@ const data = [
         imgsrc:"./Images/Lucifer.png",
         name:"3D-Book",
         altName:"3D-Book    ",
-        category:"Html",
+        category:"Html/Css",
         link:"https://dipumsd07.github.io/3d-Book/"
     },
     {
