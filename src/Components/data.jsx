@@ -159,6 +159,14 @@ const data = [
         category:"Html/Css",
         link:"https://dipumsd07.github.io/WaterWaveText/"
     },
+    {
+        id:21,
+        imgsrc:"./Images/JsCalender.png",
+        name:"JsCalender",
+        altName:"JsCalender",
+        category:"Js",
+        link:"https://dipumsd07.github.io/JsCalender/"
+    },
 ]
 
 export default data;
