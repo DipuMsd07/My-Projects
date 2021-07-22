@@ -153,14 +153,6 @@ const data = [
     },
     {
         id:20,
-        imgsrc:"./Images/JsCalender.png",
-        name:"JsCalender",
-        altName:"JsCalender",
-        category:"Js",
-        link:"https://dipumsd07.github.io/JsCalender/"
-    },
-    {
-        id:20,
         imgsrc:"./Images/WaterText.png",
         name:"WaterText",
         altName:"WaterText",
