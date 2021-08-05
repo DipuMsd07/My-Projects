@@ -19,7 +19,7 @@ const Maincard = () =>{
             <Btns filterList={filterList} setItem={setItem}/>
                 <div className="maincard">
                     <div className="row">
-                        <div className="col-11 mx-auto">
+                        <div className="col-10 mx-auto">
                             <div className="row my-5">  
                     {
                         item.map(({id,imgsrc,name,altName,category,link})=>{
