@@ -140,6 +140,7 @@ body .maincard .card:hover {
     --bs-gutter-x: 0rem;
   }
   body .maincard .card {
+    width: 300px;
     margin: 1.5em 0;
   }
   body .maincard .card:hover {

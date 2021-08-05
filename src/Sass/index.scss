@@ -132,6 +132,7 @@ body{
                 --bs-gutter-x: 0rem;
             }
             .card{
+                width: 300px;
                 margin: 1.5em 0;
                 &:hover{
                     transform: scale(1.1);
