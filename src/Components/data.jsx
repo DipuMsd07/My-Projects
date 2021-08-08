@@ -167,6 +167,22 @@ const data = [
         category:"Js",
         link:"https://dipumsd07.github.io/JsCalender/"
     },
+    {
+        id:22,
+        imgsrc:"./Images/CupFillWater.png",
+        name:"CupFilling",
+        altName:"CupLoading",
+        category:"Html/Css",
+        link:"https://dipumsd07.github.io/CupWaterLoading/"
+    },
+    // {
+    //     id:,
+    //     imgsrc:"./Images/",
+    //     name:"",
+    //     altName:"",
+    //     category:"",
+    //     link:""
+    // },
 ]
 
 export default data;
