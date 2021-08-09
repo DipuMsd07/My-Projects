@@ -175,6 +175,14 @@ const data = [
         category:"Html/Css",
         link:"https://dipumsd07.github.io/CupWaterLoading/"
     },
+    {
+        id:23,
+        imgsrc:"./Images/Loader.png",
+        name:"Loader",
+        altName:"Loader",
+        category:"Html/Css",
+        link:"https://dipumsd07.github.io/LoadingPage/"
+    },
     // {
     //     id:,
     //     imgsrc:"./Images/",
