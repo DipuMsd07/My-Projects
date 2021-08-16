@@ -183,6 +183,14 @@ const data = [
         category:"Html/Css",
         link:"https://dipumsd07.github.io/LoadingPage/"
     },
+    {
+        id:24,
+        imgsrc:"./Images/EyeBall.png",
+        name:"Eyeball",
+        altName:"Eyeball",
+        category:"Html/Css",
+        link:"https://dipumsd07.github.io/EyeBall/"
+    },
     // {
     //     id:,
     //     imgsrc:"./Images/",
