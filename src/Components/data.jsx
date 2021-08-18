@@ -199,14 +199,14 @@ const data = [
         category:"React",
         link:"https://dipumsd07.github.io/GroceryBudReact/"
     },
-    // {
-    //     id:,
-    //     imgsrc:"./Images/",
-    //     name:"",
-    //     altName:"",
-    //     category:"",
-    //     link:""
-    // },
+    {
+        id:26,
+        imgsrc:"./Images/Cocktail.png",
+        name:"Cocktails",
+        altName:"Cocktails",
+        category:"React",
+        link:"https://reactcocktailslist.netlify.app/"
+    },
     // {
     //     id:,
     //     imgsrc:"./Images/",
